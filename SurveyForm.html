@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="SurveyForm.css">
+    </head>
+    <body>
+        <h1>B5's Collection Survey Form</h1>
+        <p>Thank you for taking time to improve our sevices and platform</p>
+
+        <form>
+            
+                <label for="first-name">First name
+                    <input type="text" id="first-name" name="first-name" required placeholder="Enter your first name">
+                </label>
+                <label for="last-name">Last name
+                    <input type="text" id="last-name" name="last-name" required>
+                </label>
+                <label for="other">Other Names
+                    <input type="text" id="other" name="other-name">
+                </label>
+                <label for="age">Age
+                    <input type="number" id="age" name="age" required placeholder="How old are you?">
+                </label>
+                <label for="email">Email
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </label>
+                <label for="picture">Upload a Profile Picture
+                    <input type="file" id="picture" name="profile picture" required>
+                </label>
+            
+            
+                <legend>How did you hear about us?
+                <select id="dropdown">
+                    <option>(select one)</option>
+                    <option>Friend</option>
+                    <option>Magazine</option>
+                    <option>Social Media</option>
+                </select>
+                </legend>
+                <br>
+                <legend for="recommendation">Would you recommend B's collection to a friend?</legend>
+                <label for="definitely">
+                    <input type="radio" name="recommendation" value="Definitely" checked id="definitely" class="inline">Definitely
+                </label>
+                <label for="probably">
+                    <input type="radio" name="recommendation" value="Probably" id="probably" class="inline">Probably
+                </label>
+                <label for="not at all">
+                    <input type="radio" name="recommendation" value="Not at all" id="not at all" class="inline">Not at all
+                </label>
+            
+                <legend>What would you like to see improved(Check all that apply)</legend>
+                <label for="Customer">
+                    <input type="checkbox" name="Customer Care" id="Customer" class="inline">Customer Care
+                </label>
+                <label for="Delivery">
+                    <input type="checkbox" name="Delivery Service" id="Delivery" class="inline">Delivery Service
+                </label>
+                <label for="forum">
+                    <input type="checkbox" name="Open Forum" id="forum" class="inline">Open Forum
+                </label>
+                <label for="Others">
+                    <input type="checkbox" name="Others" id="Others" class="inline">Others
+                </label>
+               <br>
+                <label for="suggestions">Any comments or suggestions
+                    <textarea placeholder="Enter your comments here..." rows="3" cols="30" id="suggestions"></textarea>
+                </label>
+
+                <button>Submit</button>
+        </form>
+    </body>
+</html>

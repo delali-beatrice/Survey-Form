@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(207, 42, 139);
+}
+form{
+    background-color: bisque;
+    border-radius: 20px;
+    text-align: left;
+    margin: auto;
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h1,body{
+    text-align: center;
+}
+label{
+    display: block;
+    margin: 15px;
+}
+h1,p{
+    font-size: 30px;
+}
+input,textarea,select{
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+}
+.inline{
+    width:unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+button{
+    width: 20%;
+    height: 3em;
+    display: block;
+    margin: auto;
+    border: 2px solid rgb(207, 42, 139);
+}
+legend{
+    margin:15px;
+}
