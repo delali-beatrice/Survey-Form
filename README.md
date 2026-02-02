@@ -6,8 +6,8 @@ This project is designed to practice form creation, styling, and layout techniqu
 ---
 
 ## 📂 Project Structure
-- `survey.html` → The main HTML file containing the form structure and input fields.
-- `survey.css` → The CSS stylesheet for styling and layout.
+- `index.html` → The main HTML file containing the form structure and input fields.
+- `styles.css` → The CSS stylesheet for styling and layout.
 
 ---
 
