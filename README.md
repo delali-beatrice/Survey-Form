@@ -22,4 +22,4 @@ This project is designed to practice form creation, styling, and layout techniqu
 ## 🚀 Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/survey-form.git
+   https://delali-beatrice.github.io/Survey-Form/
