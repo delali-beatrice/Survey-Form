@@ -19,7 +19,6 @@ This project is designed to practice form creation, styling, and layout techniqu
 
 ---
 
-## 🚀 Getting Started
-1. Clone the repository:
+## 🚀 Live Demo
    ```bash
    https://delali-beatrice.github.io/Survey-Form/
